@@ -1,3 +1,4 @@
 {
-  "*.(js|ts|tsx)": ["yarn lint"]
+  "**/*.ts?(x)": "() => 'yarn type-check'",
+  "**/*.(ts|js)?(x)": ["yarn lint"]
 }
